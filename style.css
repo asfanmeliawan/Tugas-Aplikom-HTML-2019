@@ -1,0 +1,117 @@
+/* Navbar */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.navbar-container {
+    width: 100%;
+    box-shadow: 5px 10px #888888 v;
+}
+.navbar-body,
+.service-body {
+    margin: auto;
+    width: 80%;
+    color: black;
+    background-color: transparent;
+    padding: 1.5em;
+}
+.navbar-menu {
+    font-size: 14px;
+    float: left;
+    margin: 0;
+    list-style: none;
+    padding: 4px 0;
+}
+.navbar-item{
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline;
+    padding: 0px 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner */
+.banner-container {
+    width: 100%;
+}
+.banner-body {
+    overflow: hidden;
+    height: 204px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.banner-color {
+    width: 100%;
+    height: 480px;
+    text-align: left;
+    padding: 10px 150px;
+    color: rgb(45, 47, 48)
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner-color h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.banner-color h3 {
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+/* Profile */
+.service-container {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.service-body {
+    justify-content: center;
+    display: flex;
+}
+.service-box {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 550px;
+    padding: 14px 180px;
+    margin: 0 10px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(45, 47, 48);
+    background-image: url("background.png");
+    
+}
+.title {
+    font-size: 20px !important;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+footer {
+    text-align: center;
+    color: black;
+    width: 75%;
+    margin: 0px 170px;
+    border: 1px solid aliceblue;
+    background-image: url("background.png");
+    text-decoration: none;
+    color: rgb(45, 47, 48);
+}
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }   
+.kontak {
+    margin: 0 154px;
+    font-size: 30px;
+}
