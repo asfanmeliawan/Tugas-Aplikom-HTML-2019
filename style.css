@@ -115,3 +115,16 @@ footer {
     margin: 0 154px;
     font-size: 30px;
 }
+.Download {
+    text-align: center;
+    font-size: 19px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.Button {
+    width: 10%;
+    background-color: mediumseagreen;
+    padding: 5px;
+    margin: 0 600px;
+} 
